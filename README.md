@@ -1,8 +1,7 @@
 # AutoGrad  
 Starting this project so I can use it in [____](https://github.com/MohitKumar020291/Classifying-Names-with-a-Character-Level-RNN), the development of autograd might stop at a certain level cause I am just implementing what is required - like I currently  
-- have a neuron which holds a class `Value` - yeah you are getting it right  
-- a neuron may be manipulated : like a basic neuron starts with a value of 0 - then we adds the weight product feature, and repeats for all rest of the weights
-- a neuron is generally used in the next layer
+- Create a linear layer of neurons/basic numbers(in that case create neurons) - weights could be provided or randomly generated - create neurons of next layer - the next of neuron will be called with the weights till all the weights(summation) for all the neurons
+
 
 Future
 - A linear layer backprop
