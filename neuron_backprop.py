@@ -74,13 +74,9 @@ class Value:
 class Neuron:
     "A neuron in a typical neural network"
     def __init__(self, value: Optional[Value]=None, next=False, prev_neuron: Optional["Neuron"]=None):
-        self.neuron_value = value if isinstance(value, Value) else Value(value)
-        self.neuron_rvalue = self.neuron_value.raw_value
-        # if isinstance(value, Value):
-        #     self.neuron_value = value
-        #     self.neuron_rvalue = value.raw_value
-        # elif not isinstance(value, Neuron):
-        #     self.neuron_value = Value()
+        if not next:
+            self.neuron_value = value if isinstance(value, Value) else Value(value)
+            self.neuron_rvalue = self.neuron_value.raw_value
         self.attrs = []
         self.grads = []
         self.cousins = {}

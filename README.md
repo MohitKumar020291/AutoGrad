@@ -25,3 +25,7 @@ I keeps forgetting how to clone a private repo, so it is for that
 - give title of your choice, key type is authentication, enter key, click on add ssh key.
 - Now try cloning your repo using ssh key.       
 - Also, if you somehow added a private key(which I don't know how to do) - then before cloing you would like to tell your terminal that which key to use by writing - `ssh -i ~/.ssh/id_rsa_autograd user@host`, without using ".pub", you are using a private key.     
+
+
+- Day2: Linear -> where ever required -> threading, vectorization : seems slow due to the two overhead functions, Triton
+- Going to keep the Numpy(pure python) for python & Eigen for cpp and python as a wrapper
