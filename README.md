@@ -4,11 +4,8 @@ Starting this project so I can use it in [____](https://github.com/MohitKumar020
 
 
 Future
+- Use triton and mumpy together   
 - A linear layer backprop
-- Complete these articles : they are inspiration
-  - Implementing triton
-  - https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function
-  - https://pytorch.org/docs/stable/notes/autograd.html
    
    
 
